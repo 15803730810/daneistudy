@@ -7,5 +7,5 @@ for (let i = 0; i < arr.length; i++) {
     let other = arr[i].slice(1).toLowerCase();
     arr[i] = first + other;
 }
-let str=arr.join(' ');
+let str = arr.join(' ');
 console.log(str);
